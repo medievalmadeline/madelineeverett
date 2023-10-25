@@ -1,0 +1,90 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Madeline Everett Portfolio</title>
+    <link rel="icon" href="images/Cookie.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant&family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Caprasimo&family=Cormorant&family=DM+Serif+Display&family=EB+Garamond&family=Handjet&family=Libre+Baskerville&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ee20c365f4.js" crossorigin="anonymous"></script>
+    <!--#fad9fc -->
+<style>
+  body {
+    background-color:  #d3d5ee
+  }
+  .footer {
+    font-family: Martel;
+    background-color: #d3d5ee;
+  } 
+  .contact {
+    font-family: Borel;
+    font-size: 20px;
+    color: #e77fee
+  }
+  .title {
+    font-family: "Spectral";
+    font-size: 50px;
+    font-weight:800
+  }
+  .subtitle {
+    font-family: "Spectral";
+    font-size: 40px
+  }
+  .link {
+      color:  #e77fee ;
+    }
+  .project_link {
+    color: #363636;
+    font-family: "Spectral";
+   }
+  .spin {
+      transition: transform 0.5s ease;
+    }
+
+  .spin:hover {
+      transform: rotate(360deg);
+    }
+  .project_link:hover {
+    color: #e77fee
+  }
+  a:hover {
+      color:mediumblue
+    }
+</style>
+
+
+
+<body>
+
+<section>
+  <p font-family="Borel" class="title">
+    Hi, I'm Madeline Everett! </p>
+    <p></p>
+  <p font-family="Borel" class="subtitle"> I am a <b>data journalist</b> with degrees in<b> medieval studies </b>and <b>English literature </b> from St. Olaf College. I also studied at Columbia's Graduate School of Journalism in the <b>Lede Program for Data Journalism.</b>
+  </p>
+  <p class = "subtitle">
+    I am interested in the intersection of history and data, and the investigation of climate change and LGBTQ+ issues. I have created data stories on <a class = project_link href= 'https://medievalmadeline.github.io/arthurianverbs/' target="_blank" ><b> verb usage in Arthurian literature, </b></a>  <a class = project_link href = 'https://medievalmadeline.github.io/cardamom/' target="_blank"><b>cardamom from the Middle Ages to the present, </b></a> and <a class = project_link href = 'https://medievalmadeline.github.io/scottish-witch-trials/' target = "_blank"><b> witch trials in Scotland.</b></a></p>
+<div class="contact mb-5">
+  <div class="contact-info has-text-centered">
+    <a class = link href="mailto:madeline.ann.eve@gmail.com?subject=Reaching%20out&body=Hi%20Madeline%2C%0A%0A " target="_blank" aria-label="Send Madeline Everett an email" target="_blank">
+      <u font-family = 'Borel'>madeline.ann.eve@gmail.com  <i class="fa-regular fa-envelope spin" style="color: #04bd3b;"></i></u>
+    </a>&nbsp;
+    <a class = link href="https://github.com/medievalmadeline" aria-label="Go to Madeline Everett's GitHub" target="_blank">
+      <u>GitHub <i class="fa-brands fa-github spin" style="color: #ff15ca;"></i></u>
+    </a>&nbsp;
+    <a class = link href="https://www.linkedin.com/in/madeline-everett-b0a85617b/" aria-label="Go to Madeline Everett's LinkedIn profile" target="_blank">
+      <u>linkedin  <i class="fa-brands fa-linkedin  spin " style="color: #6894f3;"></i></u>
+    </a> &nbsp;
+    <a class = link href="link" aria-label="View Madeline Everett's resume" target="_blank">
+    <a class = link href="https://github.com/medievalmadeline/resume/blob/main/Madeline-Everett-resume-1.pdf" aria-label="View Madeline Everett's resume" target="_blank">
+      <u>resume  <i class="fa-solid fa-scroll spin " style="color: #da85ff;"></i></u></a>
+</section>
+
+  </div>
+</div>
+</body>
+</html>
