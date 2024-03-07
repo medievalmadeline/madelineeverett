@@ -14,20 +14,31 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Assistant&family=Borel&family=Bricolage+Grotesque&family=Caprasimo&family=Cormorant&family=DM+Serif+Display&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Handjet&family=Libre+Baskerville&family=Montserrat+Alternates:wght@300;400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Madimi+One&family=Aclonica&family=Bungee+Shade&family=Elsie:wght@400;900&family=Gloock&family=Leckerli+One&family=Micro+5&family=Ojuju:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Titan+One&family=Ultra&family=Unica+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap" rel="stylesheet">
   <title>Madeline Everett's Portfolio</title>
 
 </head>
 <style>
+  body {
+      cursor: url('bolt-smaller.png'), auto
+}
+  .column {
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
   .contact {
-    font-family: Borel;
+    font-family: "Madimi One";
     font-size: 20px;
-    color: #e77fee
+    color: #5474fc
   }
 
   .title {
-    font-family: "EB Garamond";
+    font-family: "Yeseva One";
     font-size: 25px;
-    font-weight: 800
+    font-weight: 800;
+    color: #5474fc
   }
 
   .spin {
@@ -47,49 +58,75 @@
   }
 
   .card .content {
-    font-family: "EB Garamond";
+    font-family: "Rubik";
     font-weight: 500;
   }
 
   h5 {
-    font-family: "EB Garamond";
+    font-family: "Rubik";
     font-size: 40px;
     font-weight: 500;
+    color:
   }
 
   h1 {
-    font-family: "Eb Garamond";
+    font-family: "Rubik";
     font-size: 25px;
+    color: #5474fc
   }
 
-  h2 {
-    font-family: "Eb Garamond";
-    font-size: 25px;
+  sub {
+    font-family: "Rubik";
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #5474fc
+  }
+  h3 {
+    font-family: "Work Sans";
+    color: #5474fc;
+    font-weight: 500
+    
   }
 
   a:hover {
-    color: #0a60b8
+    color:  #0327c9;
+    cursor: url('bolt-reverse-smaller.png'), pointer
   }
 
   a {
-    color: black
+    color: #5474fc
   }
 
   .link {
-    color: #e77fee;
+    color: #5474fc;
   }
+  .card {
+    background-color: #e9e1fc; 
+}
+p {
+  margin: 0;
+  padding: 0;
+}
 </style>
 
-<body>
-  <div class='container'>
-    <br>
-    <h1 class="title is-2 has-text-centered"> Hi, I'm Madeline Everett! </h1>
-    <h2> I am a <b>data journalist</b> with degrees in<b> medieval studies </b>and <b>English literature </b> from St.
+<body style = "background-color:#e9e1fc">
+  
+  <br>
+  <div class='story'>
+    <h1 class=" title is-2 has-text-centered"> madeline everett</h1>
+    <sub class = 'column has-text-centered'> <b>VISUAL STORYTELLER</b></sub>
+    <img class = "column" src="images/cloud3.jpg" alt="cloud"
+    width = 350> 
+
+<br>
+    <h3 class = "column"> I am a <b>data journalist</b> with degrees in<b> medieval studies </b>and <b>English literature </b> from St.
       Olaf College. I also studied at Columbia's Graduate School of Journalism in the <b>Lede Program for Data
-        Journalism.</b> </h2>
-    <br>
-    <h2> I am passionate about telling stories with data! In my free time I like to bake, knit, and do all kinds of art.
-    </h2>
+        Journalism.</b> </h3>
+    
+    <h3 class = "column"> I am also an artist working in the mediums of graphic design and digital art, film photography, block printing, and fiber arts. 
+    </h3>
+    <h3 class = "column">I am fascinated by projects that cover gender and environmental issues. I love to bake, knit, and rock climb!
+    </h3>
   </div>
   <br>
   <div class="contact mb-5 has-text-centered">
@@ -113,8 +150,7 @@
           <u>resume <i class="fa-solid fa-scroll spin " style="color: #da85ff;"></i></u></a>
     </div>
   </div>
-  <div class="columns is-multiline content">
-    <div class="column is-one-third">
+  <div class="column">
       <div class="card is-shadowless">
         <div class="card-content">
           <div class="content">
@@ -137,8 +173,7 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="column is-one-third">
+
       <div class="card is-shadowless">
         <div class="card-content">
           <div class="content">
@@ -160,8 +195,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="column is-one-third">
       <div class="card is-shadowless">
         <div class="card-content">
           <div class="content">
@@ -184,9 +217,7 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="column is-one-third">
       <div class="card is-shadowless">
         <div class="card-content">
           <div class="content">
@@ -209,9 +240,7 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="column is-one-third">
       <div class="card is-shadowless">
         <div class="card-content">
           <div class="content">
@@ -236,9 +265,7 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="column is-one-third">
       <div class="card is-shadowless">
         <div class="card-content">
           <div class="content">
@@ -262,9 +289,7 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="column is-one-third">
       <div class="card is-shadowless">
         <div class="card-content">
           <div class="content">
@@ -288,9 +313,7 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="column is-one-third">
       <div class="card is-shadowless">
         <div class="card-content">
           <div class="content">
@@ -313,9 +336,7 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="column is-one-third">
       <div class="card is-shadowless">
         <div class="card-content">
           <div class="content">
@@ -340,7 +361,6 @@
           </div>
         </div>
       </div>
-    </div>
 
   </div>
 </body>
